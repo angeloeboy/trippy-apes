@@ -1,0 +1,44 @@
+.hero-section {
+  background-image: url(../images/bg.gif);
+  background-size: cover;
+  height: 100vh;
+  max-height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  scroll-snap-align: start;
+  background-attachment: fixed;
+  h1 {
+    font-family: psych;
+    color: $yellow;
+    text-transform: uppercase;
+    font-size: 300px;
+    text-align: center;
+
+    @media (max-width: 1149px) {
+      font-size: 200px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 140px;
+    }
+  }
+
+  .subtitle {
+    text-align: center;
+    max-width: 982px;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  button {
+    background-color: black;
+    border: none;
+    padding: 20px 60px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+}

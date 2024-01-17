@@ -1,0 +1,21 @@
+footer {
+  background-color: $yellow;
+
+  .contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .contact-item {
+      background-color: black;
+      display: inline;
+      padding: 20px 40px;
+      width: 100%;
+      max-width: 250px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

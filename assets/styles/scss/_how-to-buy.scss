@@ -1,0 +1,39 @@
+.how-to-buy {
+  margin-top: 100px;
+
+  .text-container {
+    text-align: center;
+  }
+
+  .instructions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    .ins-item {
+      width: 100%;
+      background-color: $yellow;
+      padding: 17px 29px 29px 29px;
+      margin: 35px;
+      width: 331px;
+      border-radius: 16px;
+      .num {
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 120%;
+        text-align: center;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 12px;
+        border-bottom: 4px solid black;
+        text-align: center;
+      }
+      .info {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

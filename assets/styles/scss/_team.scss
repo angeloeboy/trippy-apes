@@ -1,0 +1,36 @@
+.team {
+  margin-top: 100px;
+  color: white;
+  .title {
+    text-align: center;
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    .team-item {
+      margin: 50px;
+      text-align: center;
+      max-width: 185px;
+      .team-img {
+        width: 100%;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+
+      .item-name {
+        margin-top: 50px;
+        font-size: 20px;
+      }
+
+      .item-description {
+        margin-top: 20px;
+      }
+    }
+  }
+}

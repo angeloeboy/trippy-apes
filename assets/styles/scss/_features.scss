@@ -1,0 +1,32 @@
+.features {
+  scroll-snap-align: start;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .monkey {
+    margin-top: 40px;
+    width: 30%;
+
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+
+  .text-container {
+    @media (max-width: 500px) {
+      padding: 100px 0px;
+    }
+    .infos {
+      margin-top: 44px;
+      font-weight: 300;
+      font-size: 24px;
+      margin-bottom: 44px;
+
+      @media (max-width: 700px) {
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: psych;
+  src: url(../fonts/LUCIDITY-PSYCH.ttf);
+}
+
+@font-face {
+  font-family: expand;
+  src: url(../fonts/LUCIDITY-EXPAND.ttf);
+}
+
+@font-face {
+  font-family: tiemposBlack;
+  src: url(../fonts/TIEMPOSHEADLINE-BOLD.OTF);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+$yellow: #fefc1a;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #101010;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  position: relative;
+}
+
+.expand {
+  font-family: expand;
+}
+
+.white {
+  color: white;
+}
+
+.poppins {
+  font-family: Poppins;
+}
+
+.tiempos-black {
+  font-family: tiemposBlack;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0px 5%;
+}
+
+.section-title {
+  background-color: $yellow;
+  font-family: expand;
+  color: black;
+  font-size: 30px;
+  display: inline;
+  box-decoration-break: clone;
+  line-height: 200%;
+  box-shadow: 0 0 0 10px $yellow;
+
+  @media (max-width: 700px) {
+    font-size: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "scss/hero-section";
+@import "scss/nav";
+@import "scss/about-section";
+@import "scss/stay-trippy";
+@import "scss/features";
+@import "scss/gallery";
+@import "scss/how-to-buy";
+@import "scss/faq";
+@import "scss/team";
+@import "scss/footer";
+@import "scss/loading";

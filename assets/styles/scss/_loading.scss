@@ -1,0 +1,33 @@
+.loading {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s cubic-bezier(1, 0.58, 0.4, 0.77);
+
+  div {
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+    content: "";
+    display: inline-block;
+    transition: all 0.4s cubic-bezier(1, 0.58, 0.4, 0.77);
+  }
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s cubic-bezier(1, 0.58, 0.4, 0.77);
+    cursor: pointer;
+    &:hover {
+      filter: invert(1);
+    }
+  }
+}

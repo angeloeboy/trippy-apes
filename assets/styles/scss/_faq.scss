@@ -1,0 +1,39 @@
+.faqs {
+  margin-top: 200px;
+
+  .faqs-title {
+    text-align: center;
+  }
+  .faqs-container {
+    max-width: 922px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 67px;
+    .faq-item {
+      background-color: #202020;
+      padding: 15px 45px;
+      margin-bottom: 35px;
+      cursor: pointer;
+
+      .faq-answer {
+        font-weight: 14px;
+        font-weight: 300;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        border-left: 4px solid $yellow;
+        padding-left: 2rem;
+      }
+    }
+
+    .active {
+      .faq-question {
+        font-weight: bold;
+      }
+      .faq-answer {
+        max-height: 500px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
